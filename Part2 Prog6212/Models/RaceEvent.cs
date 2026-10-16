@@ -22,6 +22,6 @@ namespace Part2_Prog6212.Models
 
         public ICollection<Category> Categories { get; set; }  // Navigation property for related Categories
               = new List<Category>();
-        public object Race { get; internal set; }
+        
     }
 }

@@ -3151,9 +3151,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\malma\\OneDrive\\Desktop\\PROG6212 P1 SQL\\Part2 Prog6212\\Part2 Prog6212.csproj",
-      "projectName": "Part2 Prog6212",
-      "projectPath": "C:\\Users\\malma\\OneDrive\\Desktop\\PROG6212 P1 SQL\\Part2 Prog6212\\Part2 Prog6212.csproj",
+      "projectUniqueName": "C:\\Users\\malma\\OneDrive\\Desktop\\PROG6212 P1 SQL\\Part2 Prog6212\\RaceDay.API.csproj",
+      "projectName": "RaceDay.API",
+      "projectPath": "C:\\Users\\malma\\OneDrive\\Desktop\\PROG6212 P1 SQL\\Part2 Prog6212\\RaceDay.API.csproj",
       "packagesPath": "C:\\Users\\malma\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\malma\\OneDrive\\Desktop\\PROG6212 P1 SQL\\Part2 Prog6212\\obj\\",
       "projectStyle": "PackageReference",

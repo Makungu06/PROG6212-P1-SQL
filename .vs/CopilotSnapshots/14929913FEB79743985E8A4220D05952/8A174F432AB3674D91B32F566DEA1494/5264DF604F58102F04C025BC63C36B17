@@ -1,0 +1,10 @@
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Part2_Prog6212.DTOs
+{
+    public class EnrolmentRequest
+    {
+        [Range(1, int.MaxValue)]
+        public int RaceId { get; set; }
+    }
+}

@@ -1,6 +1,111 @@
-﻿namespace Part2_Prog6212.Controllers
+﻿using System.Security.Claims;
+using Microsoft.AspNetCore.Authorization;   
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using Part2_Prog6212.Data;
+using Part2_Prog6212.DTOs;
+using Part2_Prog6212.Models;
+
+namespace Part2_Prog6212.Controllers;
+
+[ApiController]
+[Route("api/enrolments")]
+[Authorize]
+
+public class EnrolmentsController : ControllerBase
 {
-    public class EnrolmentsController
+    private readonly ApplicationDbContext _db;
+
+    public EnrolmentsController(ApplicationDbContext db) => _db = db;
+
+    [HttpPost]
+    [Authorize(Roles = "Participant")]
+    public async Task<IActionResult> Enrol(EnrolmentDtos request)
     {
+        var userIdText = User.FindFirstValue(
+            ClaimTypes.NameIdentifier);
+
+        if (!int.TryParse(userIdText, out var userId))
+            return Unauthorized();
+
+        var participant = await _db.Participants
+            .FirstOrDefaultAsync(p => p.UserId == userId);
+
+        if (participant is null)
+            return BadRequest("Participant profile not found.");
+
+        var race = await _db.Races
+            .FirstOrDefaultAsync(r => r.Id == request.RaceId);
+
+        if (race is null)
+            return NotFound("Race not found.");
+
+        var currentCount = await _db.RaceEntries
+            .CountAsync(e => e.RaceId == race.Id);
+
+        if (currentCount >= race.Capacity)
+            return Conflict("This race is full.");
+
+        var alreadyEnrolled = await _db.RaceEntries.AnyAsync(
+            e => e.RaceId == race.Id &&
+                 e.ParticipantId == participant.Id);
+
+        if (alreadyEnrolled)
+            return Conflict("You are already enrolled.");
+
+        var entry = new RaceEntry
+        {
+            RaceId = race.Id,
+            ParticipantId = participant.Id
+        };
+
+        _db.RaceEntries.Add(entry);
+        await _db.SaveChangesAsync();
+
+        return Ok(entry);
+    }
+
+    [HttpGet("mine")]
+    [Authorize(Roles = "Participant")]
+    public async Task<IActionResult> MyEnrolments()
+    {
+        var userIdText = User.FindFirstValue(
+            ClaimTypes.NameIdentifier);
+
+        if (!int.TryParse(userIdText, out var userId))
+            return Unauthorized();
+
+        var entries = await _db.RaceEntries
+            .Include(e => e.Race)
+            .Where(e => e.Participant != null &&
+                        e.Participant.UserId == userId)
+            .ToListAsync();
+
+        return Ok(entries);
+    }
+
+    [HttpDelete("{id:int}")]
+    [Authorize(Roles = "Participant")]
+    public async Task<IActionResult> Cancel(int id)
+    {
+        var userIdText = User.FindFirstValue(
+            ClaimTypes.NameIdentifier);
+
+        if (!int.TryParse(userIdText, out var userId))
+            return Unauthorized();
+
+        var entry = await _db.RaceEntries
+            .Include(e => e.Participant)
+            .FirstOrDefaultAsync(e =>
+                e.Id == id &&
+                e.Participant != null &&
+                e.Participant.UserId == userId);
+
+        if (entry is null) return NotFound();
+
+        _db.RaceEntries.Remove(entry);
+        await _db.SaveChangesAsync();
+
+        return NoContent();
     }
 }

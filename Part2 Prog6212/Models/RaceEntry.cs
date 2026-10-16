@@ -18,6 +18,6 @@ namespace Part2_Prog6212.Models
 
         public Race? Race { get; set; }
 
-        public RaceResult? Res { get; set; }
+        public RaceResult? Result { get; set; }
     }
 }
