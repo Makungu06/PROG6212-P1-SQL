@@ -40,3 +40,6 @@ PART2- DUE 16/10/2026
 17. Database connection: Your API must be able to reach SQL Server for database operations to work. Your Cloud Labs connection still needs to be resolved before this can be confirmed.
     NB: Everythung was implemented any error is due to technical issues
 
+    CORRECTION FILE
+    KINDLY AVOID PART2PROG6212 FOLDER,IT IS MORE LIKE A DRAFT
+
