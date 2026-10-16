@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("74a78ec2-d5a7-4541-9968-e30dd0498e1a")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("P2 RaceDay.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e1a969d9d633cbf0ff5329c617a260a185d1cd4f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+77d9f7a3ae76aaae9e83ecddaf7e90893051e4ba")]
 [assembly: System.Reflection.AssemblyProductAttribute("P2 RaceDay.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("P2 RaceDay.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -4255,6 +4255,7 @@
       "Microsoft.EntityFrameworkCore.Design >= 10.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 10.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 10.0.0",
+      "Microsoft.OpenApi >= 2.7.5",
       "Swashbuckle.AspNetCore >= 10.3.0"
     ]
   },
@@ -4334,6 +4335,10 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[10.0.0, )"
+          },
+          "Microsoft.OpenApi": {
+            "target": "Package",
+            "version": "[2.7.5, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",

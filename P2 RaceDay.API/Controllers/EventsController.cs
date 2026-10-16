@@ -133,10 +133,3 @@ public class EventsController : ControllerBase
         return NoContent();
     }
 }
-        
- }
-
-
-
-
-}
