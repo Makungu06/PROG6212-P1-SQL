@@ -286,3 +286,4 @@ C:\Users\malma\OneDrive\Desktop\PROG6212 P1 SQL\P2 RaceDay.API\obj\Debug\net10.0
 C:\Users\malma\OneDrive\Desktop\PROG6212 P1 SQL\P2 RaceDay.API\obj\Debug\net10.0\P2 RaceDay.API.pdb
 C:\Users\malma\OneDrive\Desktop\PROG6212 P1 SQL\P2 RaceDay.API\obj\Debug\net10.0\P2 RaceDay.API.genruntimeconfig.cache
 C:\Users\malma\OneDrive\Desktop\PROG6212 P1 SQL\P2 RaceDay.API\obj\Debug\net10.0\ref\P2 RaceDay.API.dll
+C:\Users\malma\OneDrive\Desktop\PROG6212 P1 SQL\P2 RaceDay.API\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.InMemory.dll

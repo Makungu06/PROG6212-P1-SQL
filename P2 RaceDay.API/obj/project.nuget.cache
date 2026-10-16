@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "CiV+w5y7rN0=",
+  "dgSpecHash": "4q5uTR9n1lw=",
   "success": true,
   "projectFilePath": "C:\\Users\\malma\\OneDrive\\Desktop\\PROG6212 P1 SQL\\P2 RaceDay.API\\P2 RaceDay.API.csproj",
   "expectedPackageFiles": [
@@ -27,6 +27,7 @@
     "C:\\Users\\malma\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\10.0.0\\microsoft.entityframeworkcore.abstractions.10.0.0.nupkg.sha512",
     "C:\\Users\\malma\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\10.0.0\\microsoft.entityframeworkcore.analyzers.10.0.0.nupkg.sha512",
     "C:\\Users\\malma\\.nuget\\packages\\microsoft.entityframeworkcore.design\\10.0.0\\microsoft.entityframeworkcore.design.10.0.0.nupkg.sha512",
+    "C:\\Users\\malma\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\10.0.0\\microsoft.entityframeworkcore.inmemory.10.0.0.nupkg.sha512",
     "C:\\Users\\malma\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\10.0.0\\microsoft.entityframeworkcore.relational.10.0.0.nupkg.sha512",
     "C:\\Users\\malma\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\10.0.0\\microsoft.entityframeworkcore.sqlserver.10.0.0.nupkg.sha512",
     "C:\\Users\\malma\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\10.0.0\\microsoft.entityframeworkcore.tools.10.0.0.nupkg.sha512",
