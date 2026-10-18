@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("P2 RaceDay.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c93a78bd7a2068b6ce99723a7a40c95a4b2e9bcf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3558b960bb1df7c49e7ee676d636c0886bca90ed")]
 [assembly: System.Reflection.AssemblyProductAttribute("P2 RaceDay.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("P2 RaceDay.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
