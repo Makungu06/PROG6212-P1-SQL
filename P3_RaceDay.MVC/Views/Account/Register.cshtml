@@ -1,0 +1,87 @@
+﻿@model P3_RaceDay.MVC.Models.DTOs.RegistrationDto
+
+@{
+    ViewData["Title"] = "Register";
+}
+
+<div class="container mt-5" style="max-width: 550px;">
+    <div class="card shadow p-4">
+        <h2 class="text-center mb-4">Join RaceDay</h2>
+
+        <div asp-validation-summary="All"
+             class="text-danger mb-3"></div>
+
+        <form asp-controller="Account"
+              asp-action="Register"
+              method="post">
+
+            @Html.AntiForgeryToken()
+
+            <div class="mb-3">
+                <label asp-for="Username" class="form-label">
+                    Username
+                </label>
+                <input asp-for="Username" class="form-control" />
+                <span asp-validation-for="Username"
+                      class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="FullName" class="form-label">
+                    Full Name
+                </label>
+                <input asp-for="FullName" class="form-control" />
+                <span asp-validation-for="FullName"
+                      class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Email" class="form-label">
+                    Email Address
+                </label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email"
+                      class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Password" class="form-label">
+                    Password
+                </label>
+                <input asp-for="Password"
+                       type="password"
+                       class="form-control" />
+                <span asp-validation-for="Password"
+                      class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Role" class="form-label">
+                    Register As
+                </label>
+
+                <select asp-for="Role" class="form-select">
+                    <option value="">-- Select Role --</option>
+                    <option value="Participant">Participant</option>
+                    <option value="Organiser">Organiser</option>
+                </select>
+
+                <span asp-validation-for="Role"
+                      class="text-danger"></span>
+            </div>
+
+            <button type="submit"
+                    class="btn btn-success w-100">
+                Register
+            </button>
+        </form>
+
+        <p class="text-center mt-3">
+            Already registered?
+            <a asp-controller="Account"
+               asp-action="Login">
+                Login here
+            </a>
+        </p>
+    </div>
+</div>

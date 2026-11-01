@@ -7,9 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Models\DTOs\" />
     <Folder Include="Models\ViewModels\" />
-    <Folder Include="Views\Account\" />
     <Folder Include="Views\Events\" />
     <Folder Include="Views\Participant\" />
     <Folder Include="Views\Organiser\" />

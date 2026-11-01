@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("P3_RaceDay.MVC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e9295b2d511decff22fdf104769de6ba96efe9a2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4aaae974afedddb1a082de33b3c45f43c3bd0dab")]
 [assembly: System.Reflection.AssemblyProductAttribute("P3_RaceDay.MVC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("P3_RaceDay.MVC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
