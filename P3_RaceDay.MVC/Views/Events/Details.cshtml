@@ -1,0 +1,29 @@
+﻿@model P3_RaceDay.MVC.Controllers.EventViewModel
+
+@{
+    ViewData["Title"] = "Event Details";
+}
+
+<div class="container mt-4">
+    <div class="card shadow p-4">
+        <h2>@Model.EventName</h2>
+
+        <p><strong>Event Date:</strong> @Model.EventDate.ToShortDateString()</p>
+        <p><strong>Venue:</strong> @Model.Venue</p>
+        <p><strong>Location:</strong> @Model.Location</p>
+        <p><strong>Description:</strong> @Model.Description</p>
+
+        <a asp-controller="Events"
+           asp-action="Enter"
+           asp-route-id="@Model.EventID"
+           class="btn btn-success">
+            Enter Event
+        </a>
+
+        <a asp-controller="Events"
+           asp-action="Index"
+           class="btn btn-secondary mt-2">
+            Back to Events
+        </a>
+    </div>
+</div>

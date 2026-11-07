@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\malma\\OneDrive\\Desktop\\PROG6212 P1 SQL\\P3_RaceDay.MVC\\P3_RaceDay.MVC.csproj": {}
+    "C:\\Users\\malma\\OneDrive\\Documentos\\Desktop\\PROG6212 P1 SQL\\P3_RaceDay.MVC\\P3_RaceDay.MVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\malma\\OneDrive\\Desktop\\PROG6212 P1 SQL\\P3_RaceDay.MVC\\P3_RaceDay.MVC.csproj": {
+    "C:\\Users\\malma\\OneDrive\\Documentos\\Desktop\\PROG6212 P1 SQL\\P3_RaceDay.MVC\\P3_RaceDay.MVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\malma\\OneDrive\\Desktop\\PROG6212 P1 SQL\\P3_RaceDay.MVC\\P3_RaceDay.MVC.csproj",
+        "projectUniqueName": "C:\\Users\\malma\\OneDrive\\Documentos\\Desktop\\PROG6212 P1 SQL\\P3_RaceDay.MVC\\P3_RaceDay.MVC.csproj",
         "projectName": "P3_RaceDay.MVC",
-        "projectPath": "C:\\Users\\malma\\OneDrive\\Desktop\\PROG6212 P1 SQL\\P3_RaceDay.MVC\\P3_RaceDay.MVC.csproj",
+        "projectPath": "C:\\Users\\malma\\OneDrive\\Documentos\\Desktop\\PROG6212 P1 SQL\\P3_RaceDay.MVC\\P3_RaceDay.MVC.csproj",
         "packagesPath": "C:\\Users\\malma\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\malma\\OneDrive\\Desktop\\PROG6212 P1 SQL\\P3_RaceDay.MVC\\obj\\",
+        "outputPath": "C:\\Users\\malma\\OneDrive\\Documentos\\Desktop\\PROG6212 P1 SQL\\P3_RaceDay.MVC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
