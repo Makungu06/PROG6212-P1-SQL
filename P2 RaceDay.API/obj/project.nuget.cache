@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CiV+w5y7rN0=",
+  "dgSpecHash": "NwBo0wpaYuM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\malma\\OneDrive\\Desktop\\PROG6212 P1 SQL\\P2 RaceDay.API\\P2 RaceDay.API.csproj",
+  "projectFilePath": "C:\\Users\\malma\\OneDrive\\Documentos\\Desktop\\PROG6212 P1 SQL\\P2 RaceDay.API\\P2 RaceDay.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\malma\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\malma\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",
@@ -73,9 +73,9 @@
       "code": "NU1902",
       "level": "Warning",
       "message": "Package 'System.Security.Cryptography.Pkcs' 9.0.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-2fmv-rv2c-59x7",
-      "projectPath": "C:\\Users\\malma\\OneDrive\\Desktop\\PROG6212 P1 SQL\\P2 RaceDay.API\\P2 RaceDay.API.csproj",
+      "projectPath": "C:\\Users\\malma\\OneDrive\\Documentos\\Desktop\\PROG6212 P1 SQL\\P2 RaceDay.API\\P2 RaceDay.API.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\malma\\OneDrive\\Desktop\\PROG6212 P1 SQL\\P2 RaceDay.API\\P2 RaceDay.API.csproj",
+      "filePath": "C:\\Users\\malma\\OneDrive\\Documentos\\Desktop\\PROG6212 P1 SQL\\P2 RaceDay.API\\P2 RaceDay.API.csproj",
       "libraryId": "System.Security.Cryptography.Pkcs",
       "targetGraphs": [
         "net10.0"
@@ -85,9 +85,9 @@
       "code": "NU1903",
       "level": "Warning",
       "message": "Package 'System.Security.Cryptography.Pkcs' 9.0.4 has a known high severity vulnerability, https://github.com/advisories/GHSA-846f-f764-76mx",
-      "projectPath": "C:\\Users\\malma\\OneDrive\\Desktop\\PROG6212 P1 SQL\\P2 RaceDay.API\\P2 RaceDay.API.csproj",
+      "projectPath": "C:\\Users\\malma\\OneDrive\\Documentos\\Desktop\\PROG6212 P1 SQL\\P2 RaceDay.API\\P2 RaceDay.API.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\malma\\OneDrive\\Desktop\\PROG6212 P1 SQL\\P2 RaceDay.API\\P2 RaceDay.API.csproj",
+      "filePath": "C:\\Users\\malma\\OneDrive\\Documentos\\Desktop\\PROG6212 P1 SQL\\P2 RaceDay.API\\P2 RaceDay.API.csproj",
       "libraryId": "System.Security.Cryptography.Pkcs",
       "targetGraphs": [
         "net10.0"

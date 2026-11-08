@@ -100,8 +100,8 @@ C:\Users\malma\OneDrive\Desktop\PROG6212 P1 SQL\P3_RaceDay.MVC\obj\Debug\net10.0
 C:\Users\malma\OneDrive\Desktop\PROG6212 P1 SQL\P3_RaceDay.MVC\obj\Debug\net10.0\P3_RaceD.89B4698E.Up2Date
 C:\Users\malma\OneDrive\Documentos\Desktop\PROG6212 P1 SQL\P3_RaceDay.MVC\bin\Debug\net10.0\appsettings.Development.json
 C:\Users\malma\OneDrive\Documentos\Desktop\PROG6212 P1 SQL\P3_RaceDay.MVC\bin\Debug\net10.0\appsettings.json
-C:\Users\malma\OneDrive\Documentos\Desktop\PROG6212 P1 SQL\P3_RaceDay.MVC\bin\Debug\net10.0\P3_RaceDay.MVC.staticwebassets.endpoints.json
 C:\Users\malma\OneDrive\Documentos\Desktop\PROG6212 P1 SQL\P3_RaceDay.MVC\bin\Debug\net10.0\P3_RaceDay.MVC.staticwebassets.runtime.json
+C:\Users\malma\OneDrive\Documentos\Desktop\PROG6212 P1 SQL\P3_RaceDay.MVC\bin\Debug\net10.0\P3_RaceDay.MVC.staticwebassets.endpoints.json
 C:\Users\malma\OneDrive\Documentos\Desktop\PROG6212 P1 SQL\P3_RaceDay.MVC\bin\Debug\net10.0\P3_RaceDay.MVC.exe
 C:\Users\malma\OneDrive\Documentos\Desktop\PROG6212 P1 SQL\P3_RaceDay.MVC\bin\Debug\net10.0\P3_RaceDay.MVC.deps.json
 C:\Users\malma\OneDrive\Documentos\Desktop\PROG6212 P1 SQL\P3_RaceDay.MVC\bin\Debug\net10.0\P3_RaceDay.MVC.runtimeconfig.json

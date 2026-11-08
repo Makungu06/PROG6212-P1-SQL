@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\malma\\OneDrive\\Desktop\\PROG6212 P1 SQL\\P2 RaceDay.API\\P2 RaceDay.API.csproj": {}
+    "C:\\Users\\malma\\OneDrive\\Documentos\\Desktop\\PROG6212 P1 SQL\\P2 RaceDay.API\\P2 RaceDay.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\malma\\OneDrive\\Desktop\\PROG6212 P1 SQL\\P2 RaceDay.API\\P2 RaceDay.API.csproj": {
+    "C:\\Users\\malma\\OneDrive\\Documentos\\Desktop\\PROG6212 P1 SQL\\P2 RaceDay.API\\P2 RaceDay.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\malma\\OneDrive\\Desktop\\PROG6212 P1 SQL\\P2 RaceDay.API\\P2 RaceDay.API.csproj",
+        "projectUniqueName": "C:\\Users\\malma\\OneDrive\\Documentos\\Desktop\\PROG6212 P1 SQL\\P2 RaceDay.API\\P2 RaceDay.API.csproj",
         "projectName": "P2 RaceDay.API",
-        "projectPath": "C:\\Users\\malma\\OneDrive\\Desktop\\PROG6212 P1 SQL\\P2 RaceDay.API\\P2 RaceDay.API.csproj",
+        "projectPath": "C:\\Users\\malma\\OneDrive\\Documentos\\Desktop\\PROG6212 P1 SQL\\P2 RaceDay.API\\P2 RaceDay.API.csproj",
         "packagesPath": "C:\\Users\\malma\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\malma\\OneDrive\\Desktop\\PROG6212 P1 SQL\\P2 RaceDay.API\\obj\\",
+        "outputPath": "C:\\Users\\malma\\OneDrive\\Documentos\\Desktop\\PROG6212 P1 SQL\\P2 RaceDay.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
