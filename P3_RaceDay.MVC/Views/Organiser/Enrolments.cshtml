@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "Manage Enrolments";
+}
+
+<div class="container mt-4">
+    <h2>Participant Enrolments</h2>
+    <p>View and manage participants registered for RaceDay events.</p>
+
+    <div class="card shadow p-4 mt-3">
+        <h5>Enrolment Management</h5>
+
+        <div class="alert alert-info">
+            Participant enrolment records will be displayed here
+            once connected to the RaceDay API.
+        </div>
+    </div>
+
+    <a asp-controller="Organiser"
+       asp-action="Index"
+       class="btn btn-secondary mt-3">
+        Back to Dashboard
+    </a>
+</div>

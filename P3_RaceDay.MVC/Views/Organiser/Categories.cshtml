@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "Manage Categories";
+}
+
+<div class="container mt-4">
+    <h2>Manage Race Categories</h2>
+    <p>Organise and manage the categories available for RaceDay events.</p>
+
+    <div class="card shadow p-4 mt-3">
+        <h5>Category Management</h5>
+        <p>Use this section to manage race categories.</p>
+
+        <div class="alert alert-info">
+            Category management will be connected to the RaceDay API.
+        </div>
+    </div>
+
+    <a asp-controller="Organiser"
+       asp-action="Index"
+       class="btn btn-secondary mt-3">
+        Back to Dashboard
+    </a>
+</div>

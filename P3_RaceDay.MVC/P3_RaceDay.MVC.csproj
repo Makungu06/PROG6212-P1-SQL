@@ -9,7 +9,6 @@
   <ItemGroup>
     <Folder Include="Models\ViewModels\" />
     <Folder Include="Views\Participant\" />
-    <Folder Include="Views\Organiser\" />
   </ItemGroup>
 
 </Project>

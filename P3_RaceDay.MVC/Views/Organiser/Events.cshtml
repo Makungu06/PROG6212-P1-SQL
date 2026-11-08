@@ -1,0 +1,72 @@
+﻿@model List<P3_RaceDay.MVC.Controllers.EventViewModel>
+
+@{
+    ViewData["Title"] = "Manage Events";
+}
+
+<h2>Manage Events</h2>
+
+<p>View and manage RaceDay events below.</p>
+
+<a asp-controller="Organiser"
+   asp-action="Create"
+   class="btn btn-success mb-3">
+    + Add New Event
+</a>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
+@if (ViewBag.Error != null)
+{
+    <div class="alert alert-danger">
+        @ViewBag.Error
+    </div>
+}
+
+@if (Model == null || !Model.Any())
+{
+    <div class="alert alert-info">
+        No events have been added yet.
+        Click Add New Event to create your first event.
+    </div>
+}
+else
+{
+    <table class="table table-bordered table-striped">
+        <thead class="table-dark">
+            <tr>
+                <th>Event ID</th>
+                <th>Event Name</th>
+                <th>Event Date</th>
+                <th>Venue</th>
+                <th>Location</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.EventID</td>
+                    <td>@item.EventName</td>
+                    <td>@item.EventDate.ToString("dd/MM/yyyy")</td>
+                    <td>@item.Venue</td>
+                    <td>@item.Location</td>
+                    <td>@item.Description</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+<a asp-controller="Organiser"
+   asp-action="Index"
+   class="btn btn-secondary">
+    Back to Dashboard
+</a>

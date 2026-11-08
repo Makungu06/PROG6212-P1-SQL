@@ -1,0 +1,55 @@
+﻿@model P3_RaceDay.MVC.Controllers.EventViewModel
+
+@{
+    ViewData["Title"] = "Create Event";
+}
+
+<div class="container mt-4">
+    <h2>Create a New Race Event</h2>
+
+    <div asp-validation-summary="All" class="text-danger"></div>
+
+    <form asp-controller="Organiser"
+          asp-action="Create"
+          method="post">
+
+        @Html.AntiForgeryToken()
+
+        <div class="mb-3">
+            <label asp-for="EventName" class="form-label">Event Name</label>
+            <input asp-for="EventName" class="form-control" />
+            <span asp-validation-for="EventName" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="EventDate" class="form-label">Event Date</label>
+            <input asp-for="EventDate" type="date" class="form-control" />
+            <span asp-validation-for="EventDate" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Venue" class="form-label">Venue</label>
+            <input asp-for="Venue" class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Location" class="form-label">Location</label>
+            <input asp-for="Location" class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Description" class="form-label">Description</label>
+            <textarea asp-for="Description" class="form-control"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-success">
+            Save Event
+        </button>
+
+        <a asp-controller="Organiser"
+           asp-action="Events"
+           class="btn btn-secondary">
+            Cancel
+        </a>
+    </form>
+</div>

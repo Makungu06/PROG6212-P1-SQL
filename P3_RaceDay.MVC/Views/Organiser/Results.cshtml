@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "Manage Results";
+}
+
+<div class="container mt-4">
+    <h2>Race Results Management</h2>
+
+    <p>Enter and manage participant race results.</p>
+
+    <div class="card shadow p-4 mt-3">
+        <h5>Results Management</h5>
+
+        <div class="alert alert-info">
+            Race results will be displayed and managed here
+            once connected to the RaceDay API.
+        </div>
+    </div>
+
+    <a asp-controller="Organiser"
+       asp-action="Index"
+       class="btn btn-secondary mt-3">
+        Back to Dashboard
+    </a>
+</div>
