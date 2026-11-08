@@ -1,0 +1,59 @@
+﻿@{
+    ViewData["Title"] = "My Results";
+}
+
+<div class="container mt-4">
+    <h2>My Race Results</h2>
+
+    <p>View your race performance and finishing positions.</p>
+
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success">
+            @TempData["SuccessMessage"]
+        </div>
+    }
+
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger">
+            @TempData["ErrorMessage"]
+        </div>
+    }
+
+    <div class="card shadow-sm mt-3">
+        <div class="card-body">
+            <h5>Results Summary</h5>
+
+            <table class="table table-bordered table-striped mt-3">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Event</th>
+                        <th>Finish Time</th>
+                        <th>Position</th>
+                        <th>Race Status</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td colspan="4" class="text-center">
+                            No results are currently available.
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="alert alert-info">
+                Your race results will appear here once they
+                are available from the RaceDay system.
+            </div>
+        </div>
+    </div>
+
+    <a asp-controller="Participant"
+       asp-action="Index"
+       class="btn btn-secondary mt-3">
+        Back to Dashboard
+    </a>
+</div>

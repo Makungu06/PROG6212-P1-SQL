@@ -1,0 +1,59 @@
+﻿@{
+    ViewData["Title"] = "Organiser Dashboard";
+}
+
+<h2>Organiser Dashboard</h2>
+
+<p>Welcome to the RaceDay Organiser Dashboard.</p>
+
+<div class="row mt-4">
+
+    <div class="col-md-6 mb-3">
+        <div class="card p-3">
+            <h4>Manage Events</h4>
+            <p>Create and view race events.</p>
+            <a asp-controller="Organiser" asp-action="Events"
+               class="btn btn-primary">Manage Events</a>
+        </div>
+    </div>
+
+    <div class="col-md-6 mb-3">
+        <div class="card p-3">
+            <h4>Create Event</h4>
+            <p>Add a new race event.</p>
+            <a asp-controller="Organiser" asp-action="Create"
+               class="btn btn-success">Add New Event</a>
+        </div>
+    </div>
+
+    <div class="col-md-6 mb-3">
+        <div class="card p-3">
+            <h4>Manage Categories</h4>
+            <p>View and manage race categories.</p>
+            <a asp-controller="Organiser" asp-action="Categories"
+               class="btn btn-primary">Manage Categories</a>
+        </div>
+    </div>
+
+    <div class="col-md-6 mb-3">
+        <div class="card p-3">
+            <h4>Manage Enrolments</h4>
+            <p>View participant event entries.</p>
+            <a asp-controller="Organiser" asp-action="Enrolments"
+               class="btn btn-primary">Manage Enrolments</a>
+        </div>
+    </div>
+
+    <div class="col-md-6 mb-3">
+        <div class="card p-3">
+            <h4>Manage Results</h4>
+            <p>View and manage race results.</p>
+            <a asp-controller="Organiser" asp-action="Results"
+               class="btn btn-primary">Manage Results</a>
+        </div>
+    </div>
+
+</div>
+
+<a asp-controller="Account" asp-action="Logout"
+   class="btn btn-danger mt-3">Logout</a>

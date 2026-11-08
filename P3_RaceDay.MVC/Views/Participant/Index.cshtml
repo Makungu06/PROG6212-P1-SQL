@@ -1,0 +1,65 @@
+﻿@{
+    ViewData["Title"] = "Participant Dashboard";
+}
+
+<h2>Participant Dashboard</h2>
+
+<p>Welcome to your RaceDay participant dashboard.</p>
+
+<div class="row mt-4">
+
+    <div class="col-md-6 mb-3">
+        <div class="card p-3">
+            <h4>Browse Events</h4>
+            <p>View available race events.</p>
+            <a asp-controller="Events"
+               asp-action="Index"
+               class="btn btn-primary">
+                Browse Events
+            </a>
+        </div>
+    </div>
+
+    <div class="col-md-6 mb-3">
+        <div class="card p-3">
+            <h4>My Events</h4>
+            <p>View events you have entered.</p>
+            <a asp-controller="Participant"
+               asp-action="MyEvents"
+               class="btn btn-primary">
+                My Events
+            </a>
+        </div>
+    </div>
+
+    <div class="col-md-6 mb-3">
+        <div class="card p-3">
+            <h4>My Results</h4>
+            <p>View your race results.</p>
+            <a asp-controller="Participant"
+               asp-action="MyResults"
+               class="btn btn-primary">
+                My Results
+            </a>
+        </div>
+    </div>
+
+    <div class="col-md-6 mb-3">
+        <div class="card p-3">
+            <h4>My Profile</h4>
+            <p>View your personal account information.</p>
+            <a asp-controller="Participant"
+               asp-action="Profile"
+               class="btn btn-primary">
+                My Profile
+            </a>
+        </div>
+    </div>
+
+</div>
+
+<a asp-controller="Account"
+   asp-action="Logout"
+   class="btn btn-danger mt-3">
+    Logout
+</a>

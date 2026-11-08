@@ -1,42 +1,43 @@
 ﻿
 using Microsoft.AspNetCore.Mvc;
 
-namespace P3_RaceDay.MVC.Controllers;
-
-public class ParticipantController : Controller
+namespace P3_RaceDay.MVC.Controllers
 {
-    private bool IsParticipant()
+    public class ParticipantController : Controller
     {
-        return HttpContext.Session.GetString("UserRole") == "Participant";
-    }
-
-    private IActionResult CheckParticipant()
-    {
-        if (!IsParticipant())
+        private bool IsParticipant()
         {
-            return RedirectToAction("Login", "Account");
+            return HttpContext.Session.GetString("UserRole") == "Participant";
         }
 
-        return View();
-    }
+        private IActionResult CheckParticipant()
+        {
+            if (!IsParticipant())
+            {
+                return RedirectToAction("Login", "Account");
+            }
 
-    public IActionResult Index()
-    {
-        return CheckParticipant();
-    }
+            return View();
+        }
 
-    public IActionResult MyEvents()
-    {
-        return CheckParticipant();
-    }
+        public IActionResult Index()
+        {
+            return CheckParticipant();
+        }
 
-    public IActionResult MyResults()
-    {
-        return CheckParticipant();
-    }
+        public IActionResult MyEvents()
+        {
+            return CheckParticipant();
+        }
 
-    public IActionResult Profile()
-    {
-        return CheckParticipant();
+        public IActionResult MyResults()
+        {
+            return CheckParticipant();
+        }
+
+        public IActionResult Profile()
+        {
+            return CheckParticipant();
+        }
     }
 }

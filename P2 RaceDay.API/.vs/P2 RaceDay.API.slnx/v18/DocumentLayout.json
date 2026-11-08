@@ -3,19 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\malma\\OneDrive\\Documentos\\Desktop\\PROG6212 P1 SQL\\P2 RaceDay.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\malma\\OneDrive\\Desktop\\PROG6212 P1 SQL\\P3_RaceDay.MVC\\Models\\DTOs\\LoginResponseDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4F3B2300-99CD-4CD3-9FF6-6486D326EDCD}|..\\P3_RaceDay.MVC\\P3_RaceDay.MVC.csproj|c:\\users\\malma\\onedrive\\documentos\\desktop\\prog6212 p1 sql\\p3_raceday.mvc\\controllers\\participantcontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\malma\\OneDrive\\Desktop\\PROG6212 P1 SQL\\P3_RaceDay.MVC\\Views\\Account\\Register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4F3B2300-99CD-4CD3-9FF6-6486D326EDCD}|..\\P3_RaceDay.MVC\\P3_RaceDay.MVC.csproj|c:\\users\\malma\\onedrive\\documentos\\desktop\\prog6212 p1 sql\\p3_raceday.mvc\\models\\dtos\\registrationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\malma\\OneDrive\\Desktop\\PROG6212 P1 SQL\\P3_RaceDay.MVC\\Models\\DTOs\\RegistrationDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4F3B2300-99CD-4CD3-9FF6-6486D326EDCD}|..\\P3_RaceDay.MVC\\P3_RaceDay.MVC.csproj|c:\\users\\malma\\onedrive\\documentos\\desktop\\prog6212 p1 sql\\p3_raceday.mvc\\views\\participant\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F3B2300-99CD-4CD3-9FF6-6486D326EDCD}|..\\P3_RaceDay.MVC\\P3_RaceDay.MVC.csproj|c:\\users\\malma\\onedrive\\documentos\\desktop\\prog6212 p1 sql\\p3_raceday.mvc\\views\\participant\\myresults.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F3B2300-99CD-4CD3-9FF6-6486D326EDCD}|..\\P3_RaceDay.MVC\\P3_RaceDay.MVC.csproj|c:\\users\\malma\\onedrive\\documentos\\desktop\\prog6212 p1 sql\\p3_raceday.mvc\\views\\participant\\myevents.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F3B2300-99CD-4CD3-9FF6-6486D326EDCD}|..\\P3_RaceDay.MVC\\P3_RaceDay.MVC.csproj|c:\\users\\malma\\onedrive\\documentos\\desktop\\prog6212 p1 sql\\p3_raceday.mvc\\views\\participant\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F3B2300-99CD-4CD3-9FF6-6486D326EDCD}|..\\P3_RaceDay.MVC\\P3_RaceDay.MVC.csproj|c:\\users\\malma\\onedrive\\documentos\\desktop\\prog6212 p1 sql\\p3_raceday.mvc\\views\\organiser\\results.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F3B2300-99CD-4CD3-9FF6-6486D326EDCD}|..\\P3_RaceDay.MVC\\P3_RaceDay.MVC.csproj|c:\\users\\malma\\onedrive\\documentos\\desktop\\prog6212 p1 sql\\p3_raceday.mvc\\views\\organiser\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F3B2300-99CD-4CD3-9FF6-6486D326EDCD}|..\\P3_RaceDay.MVC\\P3_RaceDay.MVC.csproj|c:\\users\\malma\\onedrive\\documentos\\desktop\\prog6212 p1 sql\\p3_raceday.mvc\\views\\organiser\\enrolments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F3B2300-99CD-4CD3-9FF6-6486D326EDCD}|..\\P3_RaceDay.MVC\\P3_RaceDay.MVC.csproj|c:\\users\\malma\\onedrive\\documentos\\desktop\\prog6212 p1 sql\\p3_raceday.mvc\\views\\organiser\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F3B2300-99CD-4CD3-9FF6-6486D326EDCD}|..\\P3_RaceDay.MVC\\P3_RaceDay.MVC.csproj|c:\\users\\malma\\onedrive\\documentos\\desktop\\prog6212 p1 sql\\p3_raceday.mvc\\views\\organiser\\categories.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\malma\\OneDrive\\Desktop\\PROG6212 P1 SQL\\P3_RaceDay.MVC\\Services\\ApiService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\malma\\OneDrive\\Desktop\\PROG6212 P1 SQL\\P3_RaceDay.MVC\\Models\\DTOs\\LoginDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\malma\\OneDrive\\Desktop\\PROG6212 P1 SQL\\P3_RaceDay.MVC\\Services\\ApiService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\malma\\OneDrive\\Desktop\\PROG6212 P1 SQL\\P3_RaceDay.MVC\\Models\\DTOs\\RegistrationDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\malma\\OneDrive\\Desktop\\PROG6212 P1 SQL\\P3_RaceDay.MVC\\Models\\DTOs\\LoginResponseDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\malma\\OneDrive\\Desktop\\PROG6212 P1 SQL\\P3_RaceDay.MVC\\Views\\Account\\Register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\malma\\OneDrive\\Desktop\\PROG6212 P1 SQL\\P3_RaceDay.MVC\\Controllers\\AccountController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -40,11 +73,154 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Results.cshtml",
+              "DocumentMoniker": "C:\\Users\\malma\\OneDrive\\Documentos\\Desktop\\PROG6212 P1 SQL\\P3_RaceDay.MVC\\Views\\Organiser\\Results.cshtml",
+              "RelativeDocumentMoniker": "..\\P3_RaceDay.MVC\\Views\\Organiser\\Results.cshtml",
+              "ToolTip": "C:\\Users\\malma\\OneDrive\\Documentos\\Desktop\\PROG6212 P1 SQL\\P3_RaceDay.MVC\\Views\\Organiser\\Results.cshtml",
+              "RelativeToolTip": "..\\P3_RaceDay.MVC\\Views\\Organiser\\Results.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-08T17:20:32.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\malma\\OneDrive\\Documentos\\Desktop\\PROG6212 P1 SQL\\P3_RaceDay.MVC\\Views\\Participant\\Index.cshtml",
+              "RelativeDocumentMoniker": "..\\P3_RaceDay.MVC\\Views\\Participant\\Index.cshtml",
+              "ToolTip": "C:\\Users\\malma\\OneDrive\\Documentos\\Desktop\\PROG6212 P1 SQL\\P3_RaceDay.MVC\\Views\\Participant\\Index.cshtml",
+              "RelativeToolTip": "..\\P3_RaceDay.MVC\\Views\\Participant\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-08T16:55:55.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MyEvents.cshtml",
+              "DocumentMoniker": "C:\\Users\\malma\\OneDrive\\Documentos\\Desktop\\PROG6212 P1 SQL\\P3_RaceDay.MVC\\Views\\Participant\\MyEvents.cshtml",
+              "RelativeDocumentMoniker": "..\\P3_RaceDay.MVC\\Views\\Participant\\MyEvents.cshtml",
+              "ToolTip": "C:\\Users\\malma\\OneDrive\\Documentos\\Desktop\\PROG6212 P1 SQL\\P3_RaceDay.MVC\\Views\\Participant\\MyEvents.cshtml",
+              "RelativeToolTip": "..\\P3_RaceDay.MVC\\Views\\Participant\\MyEvents.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-08T16:59:02.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MyResults.cshtml",
+              "DocumentMoniker": "C:\\Users\\malma\\OneDrive\\Documentos\\Desktop\\PROG6212 P1 SQL\\P3_RaceDay.MVC\\Views\\Participant\\MyResults.cshtml",
+              "RelativeDocumentMoniker": "..\\P3_RaceDay.MVC\\Views\\Participant\\MyResults.cshtml",
+              "ToolTip": "C:\\Users\\malma\\OneDrive\\Documentos\\Desktop\\PROG6212 P1 SQL\\P3_RaceDay.MVC\\Views\\Participant\\MyResults.cshtml",
+              "RelativeToolTip": "..\\P3_RaceDay.MVC\\Views\\Participant\\MyResults.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-08T17:01:20.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "C:\\Users\\malma\\OneDrive\\Documentos\\Desktop\\PROG6212 P1 SQL\\P3_RaceDay.MVC\\Views\\Participant\\Profile.cshtml",
+              "RelativeDocumentMoniker": "..\\P3_RaceDay.MVC\\Views\\Participant\\Profile.cshtml",
+              "ToolTip": "C:\\Users\\malma\\OneDrive\\Documentos\\Desktop\\PROG6212 P1 SQL\\P3_RaceDay.MVC\\Views\\Participant\\Profile.cshtml",
+              "RelativeToolTip": "..\\P3_RaceDay.MVC\\Views\\Participant\\Profile.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-08T17:03:27.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "RegistrationDto.cs",
+              "DocumentMoniker": "C:\\Users\\malma\\OneDrive\\Documentos\\Desktop\\PROG6212 P1 SQL\\P3_RaceDay.MVC\\Models\\DTOs\\RegistrationDto.cs",
+              "RelativeDocumentMoniker": "..\\P3_RaceDay.MVC\\Models\\DTOs\\RegistrationDto.cs",
+              "ToolTip": "C:\\Users\\malma\\OneDrive\\Documentos\\Desktop\\PROG6212 P1 SQL\\P3_RaceDay.MVC\\Models\\DTOs\\RegistrationDto.cs",
+              "RelativeToolTip": "..\\P3_RaceDay.MVC\\Models\\DTOs\\RegistrationDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-08T16:43:12.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ParticipantControllers.cs",
+              "DocumentMoniker": "C:\\Users\\malma\\OneDrive\\Documentos\\Desktop\\PROG6212 P1 SQL\\P3_RaceDay.MVC\\Controllers\\ParticipantControllers.cs",
+              "RelativeDocumentMoniker": "..\\P3_RaceDay.MVC\\Controllers\\ParticipantControllers.cs",
+              "ToolTip": "C:\\Users\\malma\\OneDrive\\Documentos\\Desktop\\PROG6212 P1 SQL\\P3_RaceDay.MVC\\Controllers\\ParticipantControllers.cs",
+              "RelativeToolTip": "..\\P3_RaceDay.MVC\\Controllers\\ParticipantControllers.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-08T17:07:46.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\malma\\OneDrive\\Documentos\\Desktop\\PROG6212 P1 SQL\\P3_RaceDay.MVC\\Views\\Organiser\\Index.cshtml",
+              "RelativeDocumentMoniker": "..\\P3_RaceDay.MVC\\Views\\Organiser\\Index.cshtml",
+              "ToolTip": "C:\\Users\\malma\\OneDrive\\Documentos\\Desktop\\PROG6212 P1 SQL\\P3_RaceDay.MVC\\Views\\Organiser\\Index.cshtml",
+              "RelativeToolTip": "..\\P3_RaceDay.MVC\\Views\\Organiser\\Index.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAADoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-08T17:13:57.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Enrolments.cshtml",
+              "DocumentMoniker": "C:\\Users\\malma\\OneDrive\\Documentos\\Desktop\\PROG6212 P1 SQL\\P3_RaceDay.MVC\\Views\\Organiser\\Enrolments.cshtml",
+              "RelativeDocumentMoniker": "..\\P3_RaceDay.MVC\\Views\\Organiser\\Enrolments.cshtml",
+              "ToolTip": "C:\\Users\\malma\\OneDrive\\Documentos\\Desktop\\PROG6212 P1 SQL\\P3_RaceDay.MVC\\Views\\Organiser\\Enrolments.cshtml",
+              "RelativeToolTip": "..\\P3_RaceDay.MVC\\Views\\Organiser\\Enrolments.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAAC0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-08T17:19:33.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\malma\\OneDrive\\Documentos\\Desktop\\PROG6212 P1 SQL\\P3_RaceDay.MVC\\Views\\Organiser\\Create.cshtml",
+              "RelativeDocumentMoniker": "..\\P3_RaceDay.MVC\\Views\\Organiser\\Create.cshtml",
+              "ToolTip": "C:\\Users\\malma\\OneDrive\\Documentos\\Desktop\\PROG6212 P1 SQL\\P3_RaceDay.MVC\\Views\\Organiser\\Create.cshtml",
+              "RelativeToolTip": "..\\P3_RaceDay.MVC\\Views\\Organiser\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-08T17:15:42.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Categories.cshtml",
+              "DocumentMoniker": "C:\\Users\\malma\\OneDrive\\Documentos\\Desktop\\PROG6212 P1 SQL\\P3_RaceDay.MVC\\Views\\Organiser\\Categories.cshtml",
+              "RelativeDocumentMoniker": "..\\P3_RaceDay.MVC\\Views\\Organiser\\Categories.cshtml",
+              "ToolTip": "C:\\Users\\malma\\OneDrive\\Documentos\\Desktop\\PROG6212 P1 SQL\\P3_RaceDay.MVC\\Views\\Organiser\\Categories.cshtml",
+              "RelativeToolTip": "..\\P3_RaceDay.MVC\\Views\\Organiser\\Categories.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-08T17:18:01.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\malma\\OneDrive\\Desktop\\PROG6212 P1 SQL\\P3_RaceDay.MVC\\Views\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\PROG6212 P1 SQL\\P3_RaceDay.MVC\\Views\\Account\\Register.cshtml",
@@ -55,43 +231,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 13,
               "Title": "RegistrationDto.cs",
               "DocumentMoniker": "C:\\Users\\malma\\OneDrive\\Desktop\\PROG6212 P1 SQL\\P3_RaceDay.MVC\\Models\\DTOs\\RegistrationDto.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\PROG6212 P1 SQL\\P3_RaceDay.MVC\\Models\\DTOs\\RegistrationDto.cs",
               "ToolTip": "C:\\Users\\malma\\OneDrive\\Desktop\\PROG6212 P1 SQL\\P3_RaceDay.MVC\\Models\\DTOs\\RegistrationDto.cs",
               "RelativeToolTip": "..\\..\\..\\..\\Desktop\\PROG6212 P1 SQL\\P3_RaceDay.MVC\\Models\\DTOs\\RegistrationDto.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-01T18:48:00.471Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 12,
               "Title": "LoginDto.cs",
               "DocumentMoniker": "C:\\Users\\malma\\OneDrive\\Desktop\\PROG6212 P1 SQL\\P3_RaceDay.MVC\\Models\\DTOs\\LoginDto.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\PROG6212 P1 SQL\\P3_RaceDay.MVC\\Models\\DTOs\\LoginDto.cs",
               "ToolTip": "C:\\Users\\malma\\OneDrive\\Desktop\\PROG6212 P1 SQL\\P3_RaceDay.MVC\\Models\\DTOs\\LoginDto.cs",
               "RelativeToolTip": "..\\..\\..\\..\\Desktop\\PROG6212 P1 SQL\\P3_RaceDay.MVC\\Models\\DTOs\\LoginDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-01T18:47:21.67Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "ApiService.cs",
               "DocumentMoniker": "C:\\Users\\malma\\OneDrive\\Desktop\\PROG6212 P1 SQL\\P3_RaceDay.MVC\\Services\\ApiService.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\PROG6212 P1 SQL\\P3_RaceDay.MVC\\Services\\ApiService.cs",
               "ToolTip": "C:\\Users\\malma\\OneDrive\\Desktop\\PROG6212 P1 SQL\\P3_RaceDay.MVC\\Services\\ApiService.cs",
               "RelativeToolTip": "..\\..\\..\\..\\Desktop\\PROG6212 P1 SQL\\P3_RaceDay.MVC\\Services\\ApiService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-31T21:05:20.978Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 16,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\malma\\OneDrive\\Desktop\\PROG6212 P1 SQL\\P3_RaceDay.MVC\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\PROG6212 P1 SQL\\P3_RaceDay.MVC\\Controllers\\AccountController.cs",
@@ -103,19 +276,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 14,
               "Title": "LoginResponseDto.cs",
               "DocumentMoniker": "C:\\Users\\malma\\OneDrive\\Desktop\\PROG6212 P1 SQL\\P3_RaceDay.MVC\\Models\\DTOs\\LoginResponseDto.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\PROG6212 P1 SQL\\P3_RaceDay.MVC\\Models\\DTOs\\LoginResponseDto.cs",
               "ToolTip": "C:\\Users\\malma\\OneDrive\\Desktop\\PROG6212 P1 SQL\\P3_RaceDay.MVC\\Models\\DTOs\\LoginResponseDto.cs",
               "RelativeToolTip": "..\\..\\..\\..\\Desktop\\PROG6212 P1 SQL\\P3_RaceDay.MVC\\Models\\DTOs\\LoginResponseDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-01T19:01:36.215Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 17,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\malma\\OneDrive\\Desktop\\PROG6212 P1 SQL\\P3_RaceDay.MVC\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\PROG6212 P1 SQL\\P3_RaceDay.MVC\\Views\\Account\\Login.cshtml",
@@ -127,7 +299,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 18,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\malma\\OneDrive\\Desktop\\PROG6212 P1 SQL\\P3_RaceDay.MVC\\Program.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\PROG6212 P1 SQL\\P3_RaceDay.MVC\\Program.cs",
@@ -138,7 +310,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 19,
               "Title": "P3_RaceDay.MVC.csproj",
               "DocumentMoniker": "C:\\Users\\malma\\OneDrive\\Desktop\\PROG6212 P1 SQL\\P3_RaceDay.MVC\\P3_RaceDay.MVC.csproj",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\PROG6212 P1 SQL\\P3_RaceDay.MVC\\P3_RaceDay.MVC.csproj",
@@ -150,7 +322,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 20,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\malma\\OneDrive\\Desktop\\PROG6212 P1 SQL\\P3_RaceDay.MVC\\appsettings.json",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\PROG6212 P1 SQL\\P3_RaceDay.MVC\\appsettings.json",

@@ -8,7 +8,6 @@
 
   <ItemGroup>
     <Folder Include="Models\ViewModels\" />
-    <Folder Include="Views\Participant\" />
   </ItemGroup>
 
 </Project>

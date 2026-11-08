@@ -63,8 +63,28 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JnYW5pc2VyXEV2ZW50cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/malma/OneDrive/Documentos/Desktop/PROG6212 P1 SQL/P3_RaceDay.MVC/Views/Organiser/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JnYW5pc2VyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/malma/OneDrive/Documentos/Desktop/PROG6212 P1 SQL/P3_RaceDay.MVC/Views/Organiser/Results.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JnYW5pc2VyXFJlc3VsdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malma/OneDrive/Documentos/Desktop/PROG6212 P1 SQL/P3_RaceDay.MVC/Views/Participant/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGljaXBhbnRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malma/OneDrive/Documentos/Desktop/PROG6212 P1 SQL/P3_RaceDay.MVC/Views/Participant/MyEvents.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGljaXBhbnRcTXlFdmVudHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malma/OneDrive/Documentos/Desktop/PROG6212 P1 SQL/P3_RaceDay.MVC/Views/Participant/MyResults.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGljaXBhbnRcTXlSZXN1bHRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malma/OneDrive/Documentos/Desktop/PROG6212 P1 SQL/P3_RaceDay.MVC/Views/Participant/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGljaXBhbnRcUHJvZmlsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/malma/OneDrive/Documentos/Desktop/PROG6212 P1 SQL/P3_RaceDay.MVC/Views/Shared/Error.cshtml]

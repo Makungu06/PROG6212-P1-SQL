@@ -1,0 +1,50 @@
+﻿@{
+    ViewData["Title"] = "My Events";
+}
+
+<div class="container mt-4">
+    <h2>My Events</h2>
+
+    <p>View the RaceDay events you have entered.</p>
+
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success">
+            @TempData["SuccessMessage"]
+        </div>
+    }
+
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger">
+            @TempData["ErrorMessage"]
+        </div>
+    }
+
+    <div class="card shadow-sm mt-3">
+        <div class="card-body">
+            <h5>My Registered Events</h5>
+
+            <p>
+                Your registered events will appear here
+                once your account is connected to the RaceDay API.
+            </p>
+
+            <div class="alert alert-info">
+                No event information is currently loaded.
+            </div>
+        </div>
+    </div>
+
+    <a asp-controller="Participant"
+       asp-action="Index"
+       class="btn btn-secondary mt-3">
+        Back to Dashboard
+    </a>
+
+    <a asp-controller="Events"
+       asp-action="Index"
+       class="btn btn-primary mt-3">
+        Browse Events
+    </a>
+</div>

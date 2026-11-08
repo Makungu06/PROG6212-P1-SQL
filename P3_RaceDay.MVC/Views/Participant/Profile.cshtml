@@ -1,0 +1,47 @@
+﻿@{
+    ViewData["Title"] = "My Profile";
+
+    var fullName = Context.Session.GetString("FullName") ?? "Participant";
+    var email = Context.Session.GetString("UserEmail") ?? "Not available";
+    var role = Context.Session.GetString("UserRole") ?? "Participant";
+}
+
+<div class="container mt-4">
+    <h2>My Profile</h2>
+
+    <p>View your RaceDay account information.</p>
+
+    <div class="card shadow-sm mt-3">
+        <div class="card-header bg-primary text-white">
+            <h5 class="mb-0">Personal Information</h5>
+        </div>
+
+        <div class="card-body">
+            <div class="mb-3">
+                <strong>Full Name:</strong>
+                <p>@fullName</p>
+            </div>
+
+            <div class="mb-3">
+                <strong>Email Address:</strong>
+                <p>@email</p>
+            </div>
+
+            <div class="mb-3">
+                <strong>Account Role:</strong>
+                <p>@role</p>
+            </div>
+
+            <div class="alert alert-info">
+                Your information is retrieved from your
+                current logged-in session.
+            </div>
+        </div>
+    </div>
+
+    <a asp-controller="Participant"
+       asp-action="Index"
+       class="btn btn-secondary mt-3">
+        Back to Dashboard
+    </a>
+</div>
