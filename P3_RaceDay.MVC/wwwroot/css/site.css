@@ -1,31 +1,54 @@
-html {
-  font-size: 14px;
-}
 
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
+/* RACE DAY GREEN THEME */
 
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
-html {
-  position: relative;
-  min-height: 100%;
-}
-
+/* Main website background */
 body {
-  margin-bottom: 60px;
+    background-color: #e8f5e9 !important;
+    color: #1b3a24;
 }
 
-.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
-  color: var(--bs-secondary-color);
-  text-align: end;
+/* Navigation bar */
+.navbar {
+    background-color: #14532d !important;
 }
 
-.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
-  text-align: start;
+    .navbar .navbar-brand,
+    .navbar .nav-link {
+        color: white !important;
+    }
+
+/* Headings */
+h1, h2, h3, h4 {
+    color: #14532d;
 }
+
+/* Cards and forms */
+.card {
+    background-color: #ffffff;
+    border: 1px solid #c8e6c9;
+    border-radius: 10px;
+}
+
+/* Buttons */
+.btn-primary,
+.btn-success {
+    background-color: #198754 !important;
+    border-color: #198754 !important;
+    color: white !important;
+}
+
+    .btn-primary:hover,
+    .btn-success:hover {
+        background-color: #14532d !important;
+    }
+
+/* Footer */
+.footer {
+    background-color: #14532d;
+    color: white;
+    padding: 15px;
+}
+
+    .footer a {
+        color: white;
+    }

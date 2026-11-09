@@ -1,87 +1,253 @@
 ﻿@model P3_RaceDay.MVC.Models.DTOs.RegistrationDto
 
 @{
-    ViewData["Title"] = "Register";
+    ViewData["Title"] = "Create Account";
 }
 
-<div class="container mt-5" style="max-width: 550px;">
-    <div class="card shadow p-4">
-        <h2 class="text-center mb-4">Join RaceDay</h2>
+<style>
+    body {
+        background: linear-gradient(135deg, #071952, #088395, #35A29F);
+        min-height: 100vh;
+    }
 
-        <div asp-validation-summary="All"
-             class="text-danger mb-3"></div>
+    .register-container {
+        padding-top: 35px;
+        padding-bottom: 100px;
+    }
+
+    .register-card {
+        max-width: 550px;
+        width: 100%;
+        margin: 0 auto 50px auto;
+        padding: 35px;
+        background: white;
+        border: 5px solid #198754;
+        border-radius: 25px;
+        box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+    }
+
+        .register-card h2 {
+            color: #071952;
+            font-size: 32px;
+            font-weight: 800;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+    .register-subtitle {
+        text-align: center;
+        color: #666;
+        margin-bottom: 30px;
+    }
+
+    .form-label {
+        font-weight: bold;
+        color: #071952;
+    }
+
+    .form-control,
+    .form-select {
+        padding: 12px;
+        border-radius: 10px;
+        border: 1px solid #ccc;
+    }
+
+        .form-control:focus,
+        .form-select:focus {
+            border-color: #198754;
+            box-shadow: 0 0 5px rgba(25,135,84,0.4);
+        }
+
+    .register-button {
+        background: #198754;
+        color: white;
+        border: none;
+        border-radius: 30px;
+        padding: 14px;
+        font-size: 18px;
+        font-weight: bold;
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 15px;
+        transition: 0.3s;
+    }
+
+        .register-button:hover {
+            background: #146c43;
+            transform: translateY(-3px);
+            color: white;
+        }
+
+    .login-link {
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+        .login-link a {
+            color: #198754;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+            .login-link a:hover {
+                text-decoration: underline;
+            }
+
+    .validation-summary-errors,
+    .field-validation-error {
+        color: #dc3545;
+    }
+
+    footer {
+        position: relative !important;
+        clear: both;
+        margin-top: 30px;
+    }
+
+    @@media (max-width: 576px) {
+        .register-card {
+            padding: 22px;
+        }
+
+            .register-card h2 {
+                font-size: 26px;
+            }
+    }
+</style>
+
+<div class="container register-container">
+
+    <div class="register-card">
+
+        <div class="text-center mb-3">
+            <span style="font-size: 55px;">🏁 🏆</span>
+        </div>
+
+        <h2>JOIN RACEDAY!</h2>
+
+        <p class="register-subtitle">
+            Create your account and start your journey.
+            Your race begins here!
+        </p>
 
         <form asp-controller="Account"
               asp-action="Register"
               method="post">
 
-            @Html.AntiForgeryToken()
-
-            <div class="mb-3">
-                <label asp-for="Username" class="form-label">
-                    Username
-                </label>
-                <input asp-for="Username" class="form-control" />
-                <span asp-validation-for="Username"
-                      class="text-danger"></span>
+            <div asp-validation-summary="All"
+                 class="text-danger mb-3">
             </div>
 
             <div class="mb-3">
-                <label asp-for="FullName" class="form-label">
+                <label asp-for="FullName"
+                       class="form-label">
                     Full Name
                 </label>
-                <input asp-for="FullName" class="form-control" />
+
+                <input asp-for="FullName"
+                       class="form-control"
+                       placeholder="Enter your full name" />
+
                 <span asp-validation-for="FullName"
-                      class="text-danger"></span>
+                      class="text-danger">
+                </span>
             </div>
 
             <div class="mb-3">
-                <label asp-for="Email" class="form-label">
+                <label asp-for="Username"
+                       class="form-label">
+                    Username
+                </label>
+
+                <input asp-for="Username"
+                       class="form-control"
+                       placeholder="Choose a username" />
+
+                <span asp-validation-for="Username"
+                      class="text-danger">
+                </span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Email"
+                       class="form-label">
                     Email Address
                 </label>
-                <input asp-for="Email" class="form-control" />
+
+                <input asp-for="Email"
+                       class="form-control"
+                       placeholder="Enter your email" />
+
                 <span asp-validation-for="Email"
-                      class="text-danger"></span>
+                      class="text-danger">
+                </span>
             </div>
 
             <div class="mb-3">
-                <label asp-for="Password" class="form-label">
+                <label asp-for="Password"
+                       class="form-label">
                     Password
                 </label>
+
                 <input asp-for="Password"
                        type="password"
-                       class="form-control" />
+                       class="form-control"
+                       placeholder="Create a password" />
+
                 <span asp-validation-for="Password"
-                      class="text-danger"></span>
+                      class="text-danger">
+                </span>
             </div>
 
             <div class="mb-3">
-                <label asp-for="Role" class="form-label">
-                    Register As
+                <label asp-for="Role"
+                       class="form-label">
+                    Account Type
                 </label>
 
-                <select asp-for="Role" class="form-select">
-                    <option value="">-- Select Role --</option>
-                    <option value="Participant">Participant</option>
-                    <option value="Organiser">Organiser</option>
+                <select asp-for="Role"
+                        class="form-select">
+
+                    <option value="">
+                        Select account type
+                    </option>
+
+                    <option value="Participant">
+                        Participant
+                    </option>
+
+                    <option value="Organiser">
+                        Organiser
+                    </option>
+
                 </select>
 
                 <span asp-validation-for="Role"
-                      class="text-danger"></span>
+                      class="text-danger">
+                </span>
             </div>
 
             <button type="submit"
-                    class="btn btn-success w-100">
-                Register
+                    class="register-button">
+                CREATE ACCOUNT
             </button>
+
         </form>
 
-        <p class="text-center mt-3">
-            Already registered?
+        <div class="login-link">
+            Already have an account?
+
             <a asp-controller="Account"
                asp-action="Login">
                 Login here
             </a>
-        </p>
+        </div>
+
     </div>
+
 </div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

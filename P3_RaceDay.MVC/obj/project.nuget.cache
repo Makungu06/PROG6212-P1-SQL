@@ -1,8 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "jnUeg7VAf/w=",
+  "dgSpecHash": "qx0O2NjMqS4=",
   "success": true,
   "projectFilePath": "C:\\Users\\malma\\OneDrive\\Documentos\\Desktop\\PROG6212 P1 SQL\\P3_RaceDay.MVC\\P3_RaceDay.MVC.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\malma\\.nuget\\packages\\apache.arrow\\22.1.0\\apache.arrow.22.1.0.nupkg.sha512",
+    "C:\\Users\\malma\\.nuget\\packages\\azure.core\\1.60.0\\azure.core.1.60.0.nupkg.sha512",
+    "C:\\Users\\malma\\.nuget\\packages\\azure.storage.blobs\\12.30.1\\azure.storage.blobs.12.30.1.nupkg.sha512",
+    "C:\\Users\\malma\\.nuget\\packages\\azure.storage.common\\12.29.0\\azure.storage.common.12.29.0.nupkg.sha512",
+    "C:\\Users\\malma\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\10.0.9\\microsoft.bcl.asyncinterfaces.10.0.9.nupkg.sha512",
+    "C:\\Users\\malma\\.nuget\\packages\\microsoft.identity.client\\4.84.2\\microsoft.identity.client.4.84.2.nupkg.sha512",
+    "C:\\Users\\malma\\.nuget\\packages\\microsoft.identity.client.extensions.msal\\4.84.2\\microsoft.identity.client.extensions.msal.4.84.2.nupkg.sha512",
+    "C:\\Users\\malma\\.nuget\\packages\\microsoft.identitymodel.abstractions\\8.14.0\\microsoft.identitymodel.abstractions.8.14.0.nupkg.sha512",
+    "C:\\Users\\malma\\.nuget\\packages\\system.clientmodel\\1.14.0\\system.clientmodel.1.14.0.nupkg.sha512",
+    "C:\\Users\\malma\\.nuget\\packages\\system.io.hashing\\10.0.9\\system.io.hashing.10.0.9.nupkg.sha512",
+    "C:\\Users\\malma\\.nuget\\packages\\system.memory.data\\10.0.9\\system.memory.data.10.0.9.nupkg.sha512",
+    "C:\\Users\\malma\\.nuget\\packages\\system.security.cryptography.protecteddata\\4.5.0\\system.security.cryptography.protecteddata.4.5.0.nupkg.sha512"
+  ],
   "logs": []
 }

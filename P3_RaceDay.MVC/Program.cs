@@ -5,6 +5,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // 1. Register MVC Controllers and Views
 builder.Services.AddControllersWithViews();
+builder.Services.AddScoped<BlobStorageService>();
 builder.Services.AddScoped<ApiService>();
 
 // 2. Configure Session Storage

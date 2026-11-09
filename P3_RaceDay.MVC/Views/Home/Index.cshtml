@@ -1,8 +1,133 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Welcome to RaceDay";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<style>
+    body {
+        background: linear-gradient(135deg, #071952, #088395, #35A29F);
+        min-height: 100vh;
+    }
+
+    .hero-section {
+        min-height: 85vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 40px 20px;
+    }
+
+    .hero-content {
+        background: rgba(255, 255, 255, 0.95);
+        padding: 60px 35px;
+        border-radius: 25px;
+        max-width: 850px;
+        width: 100%;
+        box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+    }
+
+    .hero-content h1 {
+        font-size: 48px;
+        font-weight: 900;
+        color: #071952;
+        margin-bottom: 20px;
+    }
+
+    .hero-content h2 {
+        color: #088395;
+        font-size: 27px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    .hero-content p {
+        font-size: 19px;
+        color: #555;
+        margin-bottom: 35px;
+    }
+
+    .race-icon {
+        font-size: 65px;
+        margin-bottom: 20px;
+    }
+
+    .hero-buttons {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .hero-buttons a {
+        padding: 14px 35px;
+        font-size: 18px;
+        font-weight: bold;
+        border-radius: 30px;
+        text-decoration: none;
+        transition: 0.3s;
+    }
+
+    .login-btn {
+        background-color: #198754;
+        color: white;
+    }
+
+    .register-btn {
+        background-color: #0d6efd;
+        color: white;
+    }
+
+    .hero-buttons a:hover {
+        transform: translateY(-5px);
+        opacity: 0.85;
+        color: white;
+    }
+
+    .footer-text {
+        margin-top: 35px;
+        color: #777;
+        font-size: 14px;
+    }
+</style>
+
+<div class="hero-section">
+    <div class="hero-content">
+
+        <div class="race-icon">🏁 🏃‍♂️ 🏆</div>
+
+        <h1>WELCOME TO YOUR RACE!</h1>
+
+        <h2>THIS IS THE TIME TO START, NEVER GIVE UP.</h2>
+
+        <p>
+            Every champion starts somewhere.
+            Take the first step, challenge yourself
+            and make every moment count.
+            Your journey to success starts here!
+        </p>
+
+        <div class="hero-buttons">
+
+            <a asp-controller="Account"
+               asp-action="Login"
+               class="login-btn">
+                Login
+            </a>
+
+            <a asp-controller="Account"
+               asp-action="Register"
+               class="register-btn">
+                Create Account
+            </a>
+
+        </div>
+
+
+
+
+        <div class="footer-text">
+            © 2026 RaceDay | Your Race, Your Journey, Your Victory.
+        </div>
+
+    </div>
 </div>
